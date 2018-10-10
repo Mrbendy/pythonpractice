@@ -1,8 +1,10 @@
 # pythonpractice
-python练习
-两个链表相加
-```angular2html
-Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-Output: 7 -> 0 -> 8
-Explanation: 342 + 465 = 807.
+Given a string, find the length of the longest 
+substring without repeating characters.
+* 找出最长无重复的子串not subsequence 
+* 给出长度
+```
+Input: "abcabcbb"
+Output: 3 
+Explanation: The answer is "abc", with the length of 3. 
 ```

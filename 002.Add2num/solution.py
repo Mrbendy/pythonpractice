@@ -36,7 +36,7 @@ class linklist(object):
         cur.next=None
 
 class Solution(object):
-    def convert(self,l):
+    def convert(self,l):#将链表转化成数字
         cur = l
         p = 1
         result = 0
