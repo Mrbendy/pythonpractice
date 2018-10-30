@@ -1,7 +1,7 @@
 class Solution(object):
     def twoSum(self, nums, target):
         dic = {}
-        for index, num in enumerate(nums):
+        for index, num in enumerate(nums):#enumerate函数返回序号和值
             if num in dic: #key和value都可以作为是否在字典的依据
                 return [dic[num], index]
             dic[target - num] = index
