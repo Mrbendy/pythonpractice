@@ -1,4 +1,4 @@
-class Solution(object): #本解法时间复杂度为O(N^2)
+class Solution(object): #本解法时间复杂度为O(N^3)
     def isPalinSubstr(self, s):
         i=0
         j=len(s)-1
